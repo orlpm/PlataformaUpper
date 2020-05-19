@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace APICentralDeTaxis.Models
 {
     public partial class Conductores
@@ -12,5 +13,8 @@ namespace APICentralDeTaxis.Models
         public string Ubicacion { get; set; }
         public string Zona { get; set; }
         public int? NumeroServicios { get; set; }
+
+        public int? Edad { get; set; }
+        public DateTime ?FechaInicio { get; set; }
     }
 }
